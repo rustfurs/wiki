@@ -1,0 +1,7 @@
+# By default, changes must be reviewed by Wiki admins
+# This is to prevent additing config files & such.
+* @rustfurs/wiki-editors
+
+# Content changes (under /docs/ or on the front page) can be approved by anyone.
+/docs/    @rustfurs
+README.md @rustfurs
