@@ -1,1 +1,1 @@
-# Rustacean Furs' Wiki
+docs/index.md
