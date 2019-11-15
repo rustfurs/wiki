@@ -1,3 +1,13 @@
 /*
 	# Require use of HTTPS on the website
 	Strict-Transport-Security: max-age=63072000
+
+	# Prevent browsers from incorrectly detecting non-scripts as scripts
+	X-Content-Type-Options: nosniff
+
+	# Block site from being framed with X-Frame-Options and CSP
+	Content-Security-Policy: frame-ancestors 'none'
+	X-Frame-Options: DENY
+
+	# Block pages from loading when they detect reflected XSS attacks
+	X-XSS-Protection: 1; mode=block
