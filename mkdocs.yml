@@ -1,4 +1,6 @@
 site_name: Rustacean Furs' Wiki
+repo_url: https://github.com/rustfurs/wiki/
+edit_uri: edit/main/docs/
 
 nav:
   - FAQ: faq.md
