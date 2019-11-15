@@ -1,0 +1,3 @@
+/*
+	# Require use of HTTPS on the website
+	Strict-Transport-Security: max-age=63072000
