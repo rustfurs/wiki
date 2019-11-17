@@ -8,6 +8,7 @@
 		# - Restrict which origins resources can be loaded from:
 		#   - same origin (for images, scripts, and styles) ;
 		#   - CDNJS, for a certain whitelist of libraries.
+		# - Forbid setting the base URI (can be abused to load unintended elements)
 		# - Forbid sending forms (can be abused to send cross-origin POSTs)
 		# - Forbid loading the site in an iframe (can be abused for clickjacking)
 		Content-Security-Policy = """
@@ -23,6 +24,7 @@
 		           https://cdnjs.cloudflare.com/ajax/libs/highlight.js/
 		           https://cdnjs.cloudflare.com/ajax/libs/jquery/
 		           https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/;
+		base-uri        'none';
 		form-action     'none';
 		frame-ancestors 'none';
 		"""
