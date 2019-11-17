@@ -10,9 +10,10 @@
 		#   - CDNJS, for a certain whitelist of libraries.
 		# - Forbid loading the site in an iframe (can be abused for clickjacking)
 		Content-Security-Policy = """
-		default-src 'none'; img-src 'self';
+		default-src 'none';
+		img-src    'self' data:;
 		font-src   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/;
-		style-src 'self'
+		style-src  'self'
 		           https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
 		           https://cdnjs.cloudflare.com/ajax/libs/highlight.js/
 		           https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/;
