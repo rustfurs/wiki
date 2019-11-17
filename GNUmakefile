@@ -2,3 +2,4 @@
 
 all:
 	mkdocs build
+	cp -r conf/* site/

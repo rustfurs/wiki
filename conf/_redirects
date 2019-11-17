@@ -1,0 +1,6 @@
+# Redirect default Netlify subdomain to primary domain
+https://condescending-bhaskara-d5a97a.netlify.com/* https://wiki.rustfu.rs/:splat 301!
+http://condescending-bhaskara-d5a97a.netlify.com/*  https://wiki.rustfu.rs/:splat 301!
+
+# Redirect from plaintext HTTP to HTTPS
+http://wiki.rustfu.rs/*  https://wiki.rustfu.rs/:splat 301!
