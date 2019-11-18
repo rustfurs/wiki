@@ -1,0 +1,22 @@
+{
+  "name": "Rustacean Furs' Wiki",
+  "description": "The Wiki of a community of furry Rust engineers.",
+  "repository": {
+    "url": "https://github.com/rustfurs/wiki",
+    "license": "WTFPL"
+  },
+  "keywords": [
+    "Rust",
+    "Wiki"
+  ],
+  "bugs": {
+      "list": "https://github.com/rustfurs/wiki/issues",
+      "report": "https://github.com/rustfurs/wiki/issues/new"
+  },
+  "participate": {
+      "docs": "https://github.com/rustfurs/wiki/"
+  },
+  "urls": {
+      "prod": "https://wiki.rustfu.rs/"
+  }
+}
