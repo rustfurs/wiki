@@ -19,7 +19,7 @@
       {%- block styles %}
         {% import 'cdnjs.j2' as cdnjs %}
         <link href={{ cdnjs.load('twitter-bootstrap', 'css/bootstrap.min.css') }} rel="stylesheet">
-        <link href={{ cdnjs.load('font-awesome', 'css/fontawesome.min.css') }} rel="stylesheet">
+        <link href={{ cdnjs.load('font-awesome', 'css/all.min.css') }} rel="stylesheet">
         <link href="{{ 'css/base.css'|url }}" rel="stylesheet">
         {%- if config.theme.highlightjs %}
         <link rel="stylesheet"
