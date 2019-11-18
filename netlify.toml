@@ -16,21 +16,30 @@
 		Content-Security-Policy = """
 		default-src 'none';
 		connect-src 'self';
-		img-src    'self' data:;
-		font-src   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/;
-		style-src  'self'
-		           https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
-		           https://cdnjs.cloudflare.com/ajax/libs/highlight.js/
-		           https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/;
-		script-src 'self'
-		           https://cdnjs.cloudflare.com/ajax/libs/highlight.js/
-		           https://cdnjs.cloudflare.com/ajax/libs/jquery/
-		           https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/;
+		img-src     'self' data:;
+		font-src
+		  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/;
+		style-src
+		  'self'
+		  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
+		  https://cdnjs.cloudflare.com/ajax/libs/highlight.js/
+		  https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/;
+		script-src
+		  'self'
+		  https://cdnjs.cloudflare.com/ajax/libs/highlight.js/
+		  https://cdnjs.cloudflare.com/ajax/libs/jquery/
+		  https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/;
+
 		base-uri        'none';
 		form-action     'none';
 		frame-ancestors 'none';
-		sandbox allow-forms allow-modals allow-popups
-		        allow-same-origin allow-scripts;
+
+		sandbox
+		  allow-forms
+		  allow-modals
+		  allow-popups
+		  allow-same-origin
+		  allow-scripts;
 		"""
 
 		# Request the referer not to be sent when navigating from wiki.rustfu.rs
