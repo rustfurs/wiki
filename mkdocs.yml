@@ -4,3 +4,7 @@ edit_uri: edit/main/docs/
 
 nav:
   - FAQ: faq.md
+
+theme:
+    name: mkdocs
+    custom_dir: 'theme/'
