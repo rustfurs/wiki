@@ -2,6 +2,7 @@
 	for = "/*"
 	[headers.values]
 		# Require use of HTTPS on the website
+		# Browsers should remember the HSTS header for 2 years (63072000s)
 		Strict-Transport-Security = "max-age=63072000"
 
 		# Content Security Policy:
